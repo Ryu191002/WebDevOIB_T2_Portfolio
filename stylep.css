@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(26, 0, 26);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    background-color: rgb(70, 47, 74);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(243, 149, 210);
+    font-size: 1.01rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px; /* Adjusted margin */
+}
+
+.firstSection>div {
+    width: 70%;
+}
+
+.leftSection {
+    font-size: 3rem;
+    width: 100%;
+    font-style: normal; /* Added font-style property */
+    font-weight: 600; /* Adjusted font-weight for emphasis */
+    letter-spacing: 1px; /* Added letter-spacing for better readability */
+
+}
+
+.rightSection {
+    width: 60%;
+}
+
+.rightSection img {
+    width: 80%;
+    margin: 30px 0;
+}
+
+.pink {
+    color: rgb(236, 61, 119);
+}
+
+.purple {
+    color: rgb(90, 78, 224);
+}
+
+.webDeveloper {
+    font-family: 'Rockwell', serif; /* Set a different font for "Web Developer" */
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.content {
+    font-family: 'Corben'; /* Set a different font for "Web Developer" */
+    font-size: 1rem;
+}
